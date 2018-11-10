@@ -11,6 +11,6 @@ data = {
 }
 headers = {
     'Content-Type': 'application/json',
-    'Authorization': 'BearerR4bk8c7T3ukD0nCdjBAMncfruJrr7ygCrVypX1YNVSDX5Xn9sHCh2J6/zD+Rzu/zqd8ZfB5GCQtF9hxEeho+tB3AhfVeanTsxwDhMDemaZ83lcSt4U0+hfNYIkEZ3+eHypJOMitkGHK6ZdAQ/mrwjgdB04t89/1O/w1cDnyilFU=’
+    'Authorization': 'Bearer R4bk8c7T3ukD0nCdjBAMncfruJrr7ygCrVypX1YNVSDX5Xn9sHCh2J6/zD+Rzu/zqd8ZfB5GCQtF9hxEeho+tB3AhfVeanTsxwDhMDemaZ83lcSt4U0+hfNYIkEZ3+eHypJOMitkGHK6ZdAQ/mrwjgdB04t89/1O/w1cDnyilFU=’
 }
 requests.post(url, data=json.dumps(data), headers=headers)
